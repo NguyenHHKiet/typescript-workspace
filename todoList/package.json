@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-snowpack-app": "^1.10.0"
+  }
+}
