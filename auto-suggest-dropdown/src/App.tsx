@@ -22,8 +22,8 @@ const useDebounce = (value: string, delay: number) => {
 }
 
 const Search: FC<SearchProps> = ({ handleClicked, handleSearched, results, searchTern }) =>
-(<div className='serach'>
-  <span>search</span>
+(<div className='search'>
+  <span></span>
   <input value={searchTern} spellCheck={false} onChange={handleSearched} type="text" />
   <div className='menu'>
     <div>
