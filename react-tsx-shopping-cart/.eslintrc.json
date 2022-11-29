@@ -23,6 +23,7 @@
     // to enforce using type for object type definitions, can be type or interface
     "consistent-type-definitions": ["error", "type"],
     "prettier/prettier": "error",
-    "no-undef": "off"
+    "no-undef": "off",
+    "no-empty-function": "error"
   }
 }
